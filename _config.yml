@@ -11,9 +11,8 @@ title:            ars.me
 tagline:          My personal website
 url:
 paginate:         1
-baseurl:          /
 author:
-  name:           Ariya Shajii
+  name:           A. R. Shajii
   url:            ars.me
   email:          ars@ars.me
 

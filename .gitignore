@@ -45,4 +45,4 @@ Debug/*
 # Other #
 #########
 _site/*
-_theme_package/*
+_theme_packages/*
