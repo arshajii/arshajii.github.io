@@ -1,4 +1,4 @@
-arshajii.github.io
-==================
+arshajii.github.io • [ars.me](http://ars.me)
+============================================
 
-My personal website
+This repository contains my personal website. The Jekyll theme I'm using is [Lanyon](http://lanyon.getpoole.com).
