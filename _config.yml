@@ -1,0 +1,23 @@
+# Dependencies
+markdown:         kramdown
+pygments:         true
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            ars.me
+tagline:          My personal website
+url:
+paginate:         1
+baseurl:          /
+author:
+  name:           Ariya Shajii
+  url:            ars.me
+  email:          ars@ars.me
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/arshajii/arshajii.github.io
