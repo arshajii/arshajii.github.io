@@ -89,7 +89,7 @@ etc.
 
 Since removing an element results in subsequent elements being shifted *down* as opposed to previous elements being shifted *up*, iterating in reverse order circumvents the skipping issue.
 
-**However,** there are generally better approaches than iterating backwards. For example, in Java, the appropriate method would be to use an `Iterator` as returned by the [`iterator`](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html#iterator() method of `Collection` and to call `remove` on it:
+**However,** there are generally better approaches than iterating backwards. For example, in Java, the appropriate method would be to use an `Iterator` as returned by the [`iterator`](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html#iterator()) method of `Collection` and to call `remove` on it:
 
 {% highlight java %}
 Iterator<Object> iter = list.iterator();
