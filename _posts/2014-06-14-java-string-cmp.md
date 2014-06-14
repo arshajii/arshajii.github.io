@@ -11,13 +11,13 @@ tags:
 
 ### A:
 
-**TL;DR:** Use the `equals()` method for comparing strings; i.e. `s1.equals(s2)` *as opposed to* `s1 == s2`. The former compares values whereas the latter compares references.
+**TL;DR:** Use the `equals` method for comparing strings; i.e. `s1.equals(s2)` *as opposed to* `s1 == s2`. The former compares values whereas the latter compares references.
 
 ---
 
 This is the source of a common problem encountered by many Java beginners; they try to compare two strings via `==` and are surprised to find that the result is false for two equivalent strings.
 
-The appropriate way to compare string `s1` with string `s2` is via [`equals()`](http://docs.oracle.com/javase/7/docs/api/java/lang/String.html#equals(java.lang.Object):
+The appropriate way to compare string `s1` with string `s2` is via [`equals`](http://docs.oracle.com/javase/7/docs/api/java/lang/String.html#equals(java.lang.Object)):
 
 {% highlight java %}
 s1.equals(s2)
@@ -81,4 +81,4 @@ false
 
 we have the case depicted in *Fig. 1*, so the output is `false`.
 
-In short, if you want to compare two strings by value (which more often than not is the case), you should use the `equals()` method, which goes through the characters of each string one by one to check for equality.
+In short, if you want to compare two strings by value (which more often than not is the case), you should use the `equals` method, which goes through the characters of each string one by one to check for equality.
