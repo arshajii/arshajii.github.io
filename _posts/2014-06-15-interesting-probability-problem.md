@@ -128,3 +128,7 @@ which sure enough gives us the following output:
 <pre>
 wins/total = 37026/100000 = 0.370
 </pre>
+
+### References
+
+1. Mosteller, Frederick. *Fifty Challenging Problems in Probability with Solutions*. New York: Dover Publications, 1987. Print.
