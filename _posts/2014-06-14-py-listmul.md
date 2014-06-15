@@ -73,7 +73,7 @@ Now `l` looks like this:
             |      |      |
             |      |      |
             |      |      |
-           <b>[ ]</b>   <b>[ ]</b>    <b>[ ]</b>
+           <b>[ ]</b>    <b>[ ]</b>    <b>[ ]</b>
 </pre>
 
 Each element is unique: mutating one will not affect the others.
