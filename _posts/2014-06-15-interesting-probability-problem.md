@@ -28,7 +28,7 @@ In general, we can formulate a strategy where:
 
 3. If no such number is encountered, we will lose.
 
-The question now is what's the probability $P(s,n)$ of winning if we use this strategy. Assume we are on the $k^{\text{th}}$ number (where $s \le k \le n$); the probability that this number is the largest is $1 \over n$, and the probability that we *select* this number is $\frac{s-1}{k-1}$, since the largest of the last $k-1$ numbers must have been in the first $s-1$ (otherwise we would have selected an earlier number). The total probability of winning on the $k^{\text{th}}$ number is, therefore:
+The question now is what's the probability $P(s,n)$ of winning if we use this strategy. Assume we are on the $k^{\text{th}}$ number (where $s \le k \le n$): the probability that this number is the largest is $1 \over n$, and the probability that we *select* this number is $\frac{s-1}{k-1}$, since the largest of the last $k-1$ numbers must have been in the first $s-1$ (otherwise we would have selected an earlier number). The total probability of winning on the $k^{\text{th}}$ number is, therefore:
 
 $$
 P_k(s,n) = \frac{s-1}{n(k-1)}.
@@ -81,7 +81,7 @@ which gives us $-0.000273191 \lt 0$, so we know there is a local maximum at $s =
 Now we can find $P^* = P(s^*, n)$; plugging in and simplifying yields the unholy expression
 
 $$
-P^* = \frac{e^{-\frac{n}{n-1}} \left(e^{\frac{n}{n-1}}+e^{\frac{3}{2 (n-1)}}+2 e^{\frac{3}{2 (n-1)}} (n-1) \log \left(e^{\frac{3-2 n}{2-2 n}}\right)\right)}{2 n}
+P^* = \frac{e^{-\frac{n}{n-1}} \left(e^{\frac{n}{n-1}}+e^{\frac{3}{2 (n-1)}}+2 e^{\frac{3}{2 (n-1)}} (n-1) \ln \left(e^{\frac{3-2 n}{2-2 n}}\right)\right)}{2 n}
 $$
 
 Returning now to the problem as stated with $n=100$, we find that:
