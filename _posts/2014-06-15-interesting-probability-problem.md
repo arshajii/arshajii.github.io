@@ -1,6 +1,7 @@
 ---
 layout: post
 title: An interesting problem in probability
+categories: [math]
 tags:
 - math
 ---

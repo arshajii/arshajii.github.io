@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (FAQ) Comparing strings in Java
+categories: [programming]
 tags:
 - programming
 - java

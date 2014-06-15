@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (FAQ) Removing elements while iterating over a collection
+categories: [programming]
 tags:
 - programming
 - java

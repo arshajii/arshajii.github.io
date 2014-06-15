@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (FAQ) Python list multiplication
+categories: [programming]
 tags:
 - programming
 - python

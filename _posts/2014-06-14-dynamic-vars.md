@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (FAQ) Dynamic variables
+categories: [programming]
 tags:
 - programming
 - java
