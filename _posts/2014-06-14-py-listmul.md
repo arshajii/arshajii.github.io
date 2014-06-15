@@ -16,16 +16,18 @@ tags:
 [[42], [42], [42]]
 {% endhighlight %}
 
-      
+
 The expected output is `[[42], [], []]`.
 
 ### A:
 
-It's because multiplying a list duplicates the references of the elements as opposed to creating copies of them. In other words, the three nested lists in the example above are all really the *same* object that is being pointed to from three different places, so of course a change in one shows up in the others.
+First of all, it's important to understand that Python lists are actually lists of *pointers*. Each position of a list *points to* an object in memory. Therefore, multiple list positions can point to the same object.
+
+Now to answer the question: it's because multiplying a list duplicates the pointers to the elements as opposed to creating copies of them. In other words, the three nested lists in the example above are all really the *same* object that is being pointed to from three different places, so of course a change in one shows up in the others.
 
 We can see this by using [`id()`](http://docs.python.org/3/library/functions.html#id):
 
-{% highlight python %}
+{% highlight pycon %}
 >>> l = [[]] * 3
 >>> id(l[0]), id(l[1]), id(l[2])
 (2945232, 2945232, 2945232)
@@ -35,7 +37,7 @@ Notice that all three elements have the same identity.
 
 Mutating one of the members of `l` here is kind of like doing the following:
 
-{% highlight python %}
+{% highlight pycon %}
 >>> a = []
 >>> l = [a, a, a]
 >>> a.append(42)  # <--
@@ -59,7 +61,7 @@ All three elements refer to the *same* list.
 
 If you want to produce a list of `n` *independent* sublists, a [list comprehension](http://docs.python.org/3.3/tutorial/datastructures.html#list-comprehensions) can be used instead of multiplication:
 
-{% highlight python %}
+{% highlight pycon %}
 >>> l = [[] for _ in range(3)]
 >>> l[0].append(42)
 >>> l
