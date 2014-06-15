@@ -6,7 +6,7 @@ tags:
 - math
 ---
 
-This is a problem I first saw in [*Fifty Challenging Problems in Probability*](http://www.amazon.com/Challenging-Problems-Probability-Solutions-Mathematics/dp/0486653552) by Frederick Mostaller. I decided to write briefly about it because I find the solution to be extremely unintuitive and interesting. Much of what's below is derived from Mostaller's solution. Note that this problem is also called the [secretary problem](http://en.wikipedia.org/wiki/Secretary_problem) and [sultan's dowry problem](http://mathworld.wolfram.com/SultansDowryProblem.html).
+This is a problem I first saw in [*Fifty Challenging Problems in Probability*](http://www.amazon.com/Challenging-Problems-Probability-Solutions-Mathematics/dp/0486653552)<sup>[1]</sup> by Frederick Mostaller. I decided to write briefly about it because I find the solution to be extremely unintuitive and interesting. Much of what's below is derived from Mostaller's solution. Note that this problem is also called the [secretary problem](http://en.wikipedia.org/wiki/Secretary_problem) and [sultan's dowry problem](http://mathworld.wolfram.com/SultansDowryProblem.html).
 
 The problem boils down to the following:
 
