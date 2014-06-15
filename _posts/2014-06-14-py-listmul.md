@@ -9,7 +9,7 @@ tags:
 
 ### Q: In Python, how come mutating one nested list in a list of lists mutates all of them in the following scenario?
 
-{% highlight python %}
+{% highlight pycon %}
 >>> l = [[]] * 3
 >>> l[0].append(42)
 >>> l
