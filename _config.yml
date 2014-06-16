@@ -15,6 +15,10 @@ author:
   name:           A. R. Shajii
   url:            ars.me
   email:          ars@ars.me
+comments:
+  provider: disqus
+  disqus:
+    short_name: arsme
 
 # Custom vars
 version:          1.0.0
