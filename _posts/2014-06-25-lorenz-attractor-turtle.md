@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lorenz Attractor using turtle
+title: Lorenz attractor using turtle
 categories: [curiosities]
 tags:
 - curiosities
