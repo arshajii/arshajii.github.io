@@ -23,9 +23,9 @@ but accepts
 int n = 2147483647 + 1;
 {% endhighlight %}
 
-Isn't `2147483647 + 1` a constant expression that "evaluates" to `2147483648` and, therefore, subject to rejection just like the literal `2147483648` in the second snippet? The answer of course is "no".
+Isn't `2147483647 + 1` a constant expression that "evaluates" to `2147483648` and, therefore, subject to rejection just like the literal `2147483648` in the second snippet? Or, shouldn't the fact that we are unable to assign an out-of-range value in the first snippet apply also for the second? The answers of course are "no".
 
-The issue here is that the `2147483648` in the first snippet is simply an invalid literal; it isn't syntactically correct. From [JLS §3.10.1](http://docs.oracle.com/javase/specs/jls/se8/html/jls-3.html#jls-3.10.1):
+The *real* issue here is that the `2147483648` in the first snippet is simply an invalid literal; it isn't syntactically correct. From [JLS §3.10.1](http://docs.oracle.com/javase/specs/jls/se8/html/jls-3.html#jls-3.10.1):
 
 > **It is a compile-time error if a decimal literal of type `int` is larger than `2147483648` (2<sup>31</sup>), or if the decimal literal `2147483648` appears anywhere other than as the operand of the unary minus operator ([§15.15.4](http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.15.4)).**
 
