@@ -30,3 +30,7 @@ The *real* issue here is that the `2147483648` in the first snippet is simply an
 > **It is a compile-time error if a decimal literal of type `int` is larger than `2147483648` (2<sup>31</sup>), or if the decimal literal `2147483648` appears anywhere other than as the operand of the unary minus operator ([§15.15.4](http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.15.4)).**
 
 (It's really the bit after the "or" that applies here.) `2147483647 + 1`, on the other hand, is perfectly valid; we're just adding two numbers and there just happens to be a integer overflow.
+
+I appreciate that the answers to these types of questions could all potentially be *"because the language specification says so"*, but hopefully this has provided *some* insight beyond that.
+
+
