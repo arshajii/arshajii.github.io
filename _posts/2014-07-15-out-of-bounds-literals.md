@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Out-of-Bounds Literals
+title: Out-of-Bounds literals in Java
 categories: [programming]
 tags:
 - programming
