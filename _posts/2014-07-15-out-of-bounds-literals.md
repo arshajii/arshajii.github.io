@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Out of Bounds Literals
+title: Out-of-Bounds Literals
 categories: [programming]
 tags:
 - programming
@@ -23,11 +23,10 @@ but accepts
 int n = 2147483647 + 1;
 {% endhighlight %}
 
-Isn't `2147483647 + 1` a constant expression that "evaluates" to `2147483648` and, therefore, subject to rejection just like the literal `2147483647` in the second snippet? The answer of course is "no".
+Isn't `2147483647 + 1` a constant expression that "evaluates" to `2147483648` and, therefore, subject to rejection just like the literal `2147483648` in the second snippet? The answer of course is "no".
 
 The issue here is that the `2147483648` in the first snippet is simply an invalid literal; it isn't syntactically correct. From [JLS §3.10.1](http://docs.oracle.com/javase/specs/jls/se8/html/jls-3.html#jls-3.10.1):
 
 > **It is a compile-time error if a decimal literal of type `int` is larger than `2147483648` (2<sup>31</sup>), or if the decimal literal `2147483648` appears anywhere other than as the operand of the unary minus operator ([§15.15.4](http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.15.4)).**
 
-(It's really the bit after the "or" that applies here.) `2147483647 + 1`, on the other hand, is perfectly valid; we're just adding two numbers and there just happens to be an overflow.
-
+(It's really the bit after the "or" that applies here.) `2147483647 + 1`, on the other hand, is perfectly valid; we're just adding two numbers and there just happens to be a integer overflow.
