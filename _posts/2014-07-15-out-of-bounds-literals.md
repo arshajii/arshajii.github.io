@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Out-of-Bounds literals in Java
 categories: [programming]
 tags:
