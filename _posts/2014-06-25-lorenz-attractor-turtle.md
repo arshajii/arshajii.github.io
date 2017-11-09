@@ -19,7 +19,7 @@ $$
 
 It's interesting that such a simple system of differential equations can lead to such nontrivial results. Here's what I came up with:
 
-{% highlight python3 %}
+{% highlight python %}
 import turtle
 from math import atan2
 
