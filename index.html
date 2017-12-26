@@ -20,6 +20,10 @@ title: Home
     color: #9a9a9a;
 }
 
+.fa-graduation-cap {
+    color: #9a9a9a;
+}
+
 .fa-envelope {
     color: #9a9a9a;
 }
@@ -37,6 +41,10 @@ title: Home
 }
 
 .fa-twitter:hover {
+    color: #303030;
+}
+
+.fa-graduation-cap:hover {
     color: #303030;
 }
 
@@ -73,8 +81,8 @@ title: Home
     {% endif %}
 
     {% if site.author.email %}
-    <a href="mailto:{{ site.author.email }}">
-        <i class="fa fa-envelope fa-2x fa-fw"></i>
+    <a href="{{ site.url }}/publications">
+        <i class="fa fa-graduation-cap fa-2x fa-fw"></i>
     </a>
     {% endif %}
   </div>
