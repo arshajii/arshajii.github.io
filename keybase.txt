@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/arshajii
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ars.me
+  * I am arshajii (https://keybase.io/arshajii) on keybase.
+  * I have a public key ASCyLIfSlpQQg6klzSvi99C1HoWMAQ5f6ueZPl0iOCErxwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208d890188c5ae2557af135da6b6ca7eb02d9a13f1d66b2e9388ed9a40313a6bea0a",
+      "host": "keybase.io",
+      "kid": "0120b22c87d296941083a925cd2be2f7d0b51e858c010e5feae7993e5d2238212bc70a",
+      "uid": "9abb2bed77a0e3576a76a302ff071519",
+      "username": "arshajii"
+    },
+    "merkle_root": {
+      "ctime": 1514785413,
+      "hash": "d57a8a50b5e1927b8f141ea279d4391ca233c41c38a89e70a79677744a8bffd616bf433ceab1ddeff12e40d3c43d0708868d020654ed49b318679264a1e17cb9",
+      "hash_meta": "c847b1aa3d126c9ca48609198e2031d14f2abedecd6cb550472ca9c1c44049c4",
+      "seqno": 1874033
+    },
+    "service": {
+      "hostname": "ars.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.38"
+  },
+  "ctime": 1514785504,
+  "expire_in": 504576000,
+  "prev": "9fa9295ffcf8af9ae0582a3e52655c4331c8b6036332f30ae180ab3a5a5d98cf",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgsiyH0paUEIOpJc0r4vfQtR6FjAEOX+rnmT5dIjghK8cKp3BheWxvYWTFAz97ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOGQ4OTAxODhjNWFlMjU1N2FmMTM1ZGE2YjZjYTdlYjAyZDlhMTNmMWQ2NmIyZTkzODhlZDlhNDAzMTNhNmJlYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYjIyYzg3ZDI5Njk0MTA4M2E5MjVjZDJiZTJmN2QwYjUxZTg1OGMwMTBlNWZlYWU3OTkzZTVkMjIzODIxMmJjNzBhIiwidWlkIjoiOWFiYjJiZWQ3N2EwZTM1NzZhNzZhMzAyZmYwNzE1MTkiLCJ1c2VybmFtZSI6ImFyc2hhamlpIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTE0Nzg1NDEzLCJoYXNoIjoiZDU3YThhNTBiNWUxOTI3YjhmMTQxZWEyNzlkNDM5MWNhMjMzYzQxYzM4YTg5ZTcwYTc5Njc3NzQ0YThiZmZkNjE2YmY0MzNjZWFiMWRkZWZmMTJlNDBkM2M0M2QwNzA4ODY4ZDAyMDY1NGVkNDliMzE4Njc5MjY0YTFlMTdjYjkiLCJoYXNoX21ldGEiOiJjODQ3YjFhYTNkMTI2YzljYTQ4NjA5MTk4ZTIwMzFkMTRmMmFiZWRlY2Q2Y2I1NTA0NzJjYTljMWM0NDA0OWM0Iiwic2Vxbm8iOjE4NzQwMzN9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYXJzLm1lIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzgifSwiY3RpbWUiOjE1MTQ3ODU1MDQsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiOWZhOTI5NWZmY2Y4YWY5YWUwNTgyYTNlNTI2NTVjNDMzMWM4YjYwMzYzMzJmMzBhZTE4MGFiM2E1YTVkOThjZiIsInNlcW5vIjoxMywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBNMjTaQxYoWA+9DEGdK3QsQCP9J+wBHI5E2djl3twTynqBHhNj5F+d+LzPCHTfSeIzSx/puXv9/oKXm1e/A+UHqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgzIOrKgPzQ50KIfOtff04Ht/dBmaZUDf/d+9szrjMhTOjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/arshajii
+
+==================================================================
