@@ -5,55 +5,101 @@ title: Home
 
 <style>
 .fa-github {
-    color: #9a9a9a;
+  font-size: 30pt;
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  color: #9a9a9a;
 }
 
 .fa-stack-overflow {
-    color: #9a9a9a;
+  font-size: 30pt;
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  color: #9a9a9a;
 }
 
 .fa-linkedin {
-    color: #9a9a9a;
+  font-size: 30pt;
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  color: #9a9a9a;
 }
 
 .fa-twitter {
-    color: #9a9a9a;
+  font-size: 30pt;
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  color: #9a9a9a;
 }
 
 .fa-graduation-cap {
-    color: #9a9a9a;
+  font-size: 30pt;
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  color: #9a9a9a;
 }
 
 .fa-envelope {
-    color: #9a9a9a;
+  font-size: 30pt;
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  color: #9a9a9a;
 }
 
 .fa-github:hover {
-    color: #303030;
+  color: #303030;
 }
 
 .fa-stack-overflow:hover {
-    color: #303030;
+  color: #303030;
 }
 
 .fa-linkedin:hover {
-    color: #303030;
+  color: #303030;
 }
 
 .fa-twitter:hover {
-    color: #303030;
+  color: #303030;
 }
 
 .fa-graduation-cap:hover {
-    color: #303030;
+  color: #303030;
 }
 
 .fa-envelope:hover {
-    color: #303030;
+  color: #303030;
 }
 </style>
 
 <div id="home">
+  <h2>About me</h2>
+  <p>I'm a graduate student at <a href="https://csail.mit.edu">MIT CSAIL</a> focusing on computational genomics. More specifically, my graduate research involves developing fast, accurate and easy-to-use algorithms and software for processing the ever-increasing genomic data that is being produced. I focus mainly on third-generation sequencing data, and applications pertaining to it like sequence alignment, assembly, genotyping and phasing. More recently I have also delved into the field of compilers.</p>
+
+  <hr />
 
   <div id="contact-list" style="text-align:center">
     {% if site.author.github %}
@@ -80,11 +126,8 @@ title: Home
     </a>
     {% endif %}
 
-    {% if site.author.email %}
     <a href="{{ site.url }}/publications">
         <i class="fa fa-graduation-cap fa-2x fa-fw"></i>
     </a>
-    {% endif %}
   </div>
-
 </div>
