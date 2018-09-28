@@ -11,6 +11,7 @@ title: Home
   -webkit-transition:.5s;
   transition: .5s;
   color: #9a9a9a;
+  display: inline-block;
 }
 
 .fa-stack-overflow {
@@ -20,6 +21,7 @@ title: Home
   -webkit-transition:.5s;
   transition: .5s;
   color: #9a9a9a;
+  display: inline-block;
 }
 
 .fa-linkedin {
@@ -29,6 +31,7 @@ title: Home
   -webkit-transition:.5s;
   transition: .5s;
   color: #9a9a9a;
+  display: inline-block;
 }
 
 .fa-twitter {
@@ -38,6 +41,7 @@ title: Home
   -webkit-transition:.5s;
   transition: .5s;
   color: #9a9a9a;
+  display: inline-block;
 }
 
 .fa-graduation-cap {
@@ -47,6 +51,7 @@ title: Home
   -webkit-transition:.5s;
   transition: .5s;
   color: #9a9a9a;
+  display: inline-block;
 }
 
 .fa-envelope {
@@ -56,6 +61,7 @@ title: Home
   -webkit-transition:.5s;
   transition: .5s;
   color: #9a9a9a;
+  display: inline-block;
 }
 
 .fa-github:hover {
@@ -81,6 +87,11 @@ title: Home
 .fa-envelope:hover {
   color: #303030;
 }
+
+.fa-fw{
+  margin-right: 15px;
+  margin-left: 15px;
+}
 </style>
 
 <div id="home">
@@ -89,28 +100,28 @@ title: Home
 
   <hr />
 
-  <div id="contact-list" style="text-align:center">
+  <div id="contact-list" style="text-align:center;">
     {% if site.author.github %}
-    <a href="https://github.com/{{ site.author.github }}">
-        <i class="fab fa-github fa-2x fa-fw"></i>
+    <a href="https://github.com/{{ site.author.github }}" target="_blank">
+      <i class="fab fa-github fa-2x fa-fw"></i>
     </a>
     {% endif %}
 
     {% if site.author.stackoverflow %}
-    <a href="https://stackoverflow.com/users/{{ site.author.stackoverflow }}">
-        <i class="fab fa-stack-overflow fa-2x fa-fw"></i>
+    <a href="https://stackoverflow.com/users/{{ site.author.stackoverflow }}" target="_blank">
+      <i class="fab fa-stack-overflow fa-2x fa-fw"></i>
     </a>
     {% endif %}
 
     {% if site.author.twitter %}
-    <a href="https://twitter.com/{{ site.author.twitter }}">
-        <i class="fab fa-twitter fa-2x fa-fw"></i>
+    <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank">
+      <i class="fab fa-twitter fa-2x fa-fw"></i>
     </a>
     {% endif %}
 
     {% if site.author.linkedin %}
-    <a href="https://linkedin.com/in/{{ site.author.linkedin }}">
-        <i class="fab fa-linkedin fa-2x fa-fw"></i>
+    <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank">
+      <i class="fab fa-linkedin fa-2x fa-fw"></i>
     </a>
     {% endif %}
   </div>
