@@ -92,6 +92,10 @@ title: Home
   margin-right: 15px;
   margin-left: 15px;
 }
+
+a.faicon:hover, a.faicon:focus, a.faicon:active, a.faicon:visited, a.faicon:link {
+  text-decoration: none;
+}
 </style>
 
 <div id="home">
@@ -102,25 +106,25 @@ title: Home
 
   <div id="contact-list" style="text-align:center;">
     {% if site.author.github %}
-    <a href="https://github.com/{{ site.author.github }}" target="_blank">
+    <a class="faicon" href="https://github.com/{{ site.author.github }}" target="_blank">
       <i class="fab fa-github fa-2x fa-fw"></i>
     </a>
     {% endif %}
 
     {% if site.author.stackoverflow %}
-    <a href="https://stackoverflow.com/users/{{ site.author.stackoverflow }}" target="_blank">
+    <a class="faicon" href="https://stackoverflow.com/users/{{ site.author.stackoverflow }}" target="_blank">
       <i class="fab fa-stack-overflow fa-2x fa-fw"></i>
     </a>
     {% endif %}
 
     {% if site.author.twitter %}
-    <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank">
+    <a class="faicon" href="https://twitter.com/{{ site.author.twitter }}" target="_blank">
       <i class="fab fa-twitter fa-2x fa-fw"></i>
     </a>
     {% endif %}
 
     {% if site.author.linkedin %}
-    <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank">
+    <a class="faicon" href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank">
       <i class="fab fa-linkedin fa-2x fa-fw"></i>
     </a>
     {% endif %}
